@@ -96,7 +96,7 @@ func (rh *RotateHook) rotate() error {
 	return nil
 }
 
-func (rh *RotateHook) SetRoTateType(rtype int) {
+func (rh *RotateHook) SetRotateType(rtype int) {
 	switch rtype {
 	case RotateByDay:
 		rh.timePattern = defaultDayTimePattern
